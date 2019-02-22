@@ -27,15 +27,13 @@ document.onkeyup = function (event) {
 
 //Correct guesses
 //If the player guesses correctly, add to the wins and make attemps equal 10. Reset used letters to empty.
-    if (playerGuess !== psychicLetter) {
-        alert("Choose letters only!");
-    }
+    
 
     if (playerGuess === psychicLetter) {
         won++;
         attempts = 10;
         usedLetters = []; //empty array
-        alert("Yay! You won. Week going!");
+        alert("Yay! You won. Keep going!");
 
         //Then we run the guess function over again.
         psychicLetter = letters[Math.floor(Math.random() * letters.length)]; 
