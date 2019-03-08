@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Westworld Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS - reset, bootstrap 4.3.1, style, google font -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    
+    
+</head>
+<body>
+
+        <script>
+
+            var clicksound = new Audio();
+            clicksound.src = "assets/sounds/click.mp3";
+            
+        </script>
+
+       
+        <div class="container">
+          <div class="header text-center clearfix">
+            <!-- <h1 class="text-muted">Westworld Trivia</h1> -->
+          </div>
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <div id="game">
+              <h1>Westworld Trivia</h1>
+              <p id="remaining-time" class="lead">Time: <span id="timer"></span></p>
+              <p id="question" class="lead"></p>
+            </div>
+            <div id="results">
+            </div>
+          </div>
+    
+          <div class="row">
+            <div id="choices" class="text-center">
+            <p id="instructions">How much do you know about Westworld? Test out your knowledge with our fun quiz. <br><br>
+            You've got <strong>10 seconds</strong> to answer each question. There are <strong>10 questions</strong> total. <br><br> Good luck!</p> 
+              <button onmousedown="clicksound.play()" id="start" class="btn btn-info btn-lg">Start Game</button>
+              <div id="options">
+                
+              </div>
+              
+            </div>
+          </div>
+    
+        </div> <!-- /container -->
+    
+      
+       
+        <script src="assets/javascript/app.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+
+    background-image: url("http://wallpapershdnow.com/images/tv-shows/fiction/westworld-season-2/westworld-logo-season-2-background-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+
+    font-size: 80px;
+    font-family: 'Ewert', cursive;
+    text-align: center;
+    /* margin-top: px; */
+
+}
+
+
+p {
+
+    font-size: 25px;
+}
+
+.jumbotron {
+
+    background:rgba(218, 217, 226, 0.85); 
+    border-radius: 25px;
+    margin-top: 50px;
+    
+}
+
+
+/* Instructions and start button are here */
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0px;
+    text-align: center;
+    
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+#remaining-time{
+    background-color: rgb(253, 253, 253, 0.5 );
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 65px;
+    border: .5px solid rgb(204, 202, 202);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#question {
+
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    background-color:  rgb(253, 253, 253, 0.5 );
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#results {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Question area  */
+.instructions {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0px;
+    align-content: center;
+    
+}
+
+.text-center {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
