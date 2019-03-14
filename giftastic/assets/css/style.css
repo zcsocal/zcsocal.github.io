@@ -1,0 +1,61 @@
+body {
+
+    background: url("https://i.vimeocdn.com/video/730708070_1280x720.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container {
+    background-color:rgb(255, 255, 255, 0.9);
+    padding-bottom: 30px;
+    border-radius: 15px;
+   
+}
+
+.jumbotron{
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 15px;
+    
+   
+}
+
+.row {
+    margin-left: 0px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 7.5rem !important;
+    color: yellow;
+}
+
+
+.lead {
+    color: yellow !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--red);
+    border-color: var(--indigo);
+}
+
+.gifdisplayarea {
+
+    width: 75%;
+
+}
+
+.row {
+    width: 100%;
+}
+
+.gifDiv {
+    float: left;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.btn {
+margin-right: 10px;
+}
