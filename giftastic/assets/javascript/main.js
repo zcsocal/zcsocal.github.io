@@ -43,7 +43,7 @@ $( document ).ready(function() {
 
     function displayGifs(){
         var skit = $(this).attr("data-name"); //this will be inserted into the API query URL
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + skit + " saturday night live" + "&api_key=G9Nv9WdEWuShapfJYlVkeNhefqTQVMfv&limit=20";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + skit + " saturday night live" + "&api_key=G9Nv9WdEWuShapfJYlVkeNhefqTQVMfv&limit=20";
         console.log(queryURL); //It works! The keywords show up as well
         $.ajax({  //GETS the query
             url: queryURL,
